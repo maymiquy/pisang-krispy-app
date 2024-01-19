@@ -15,7 +15,7 @@ function App() {
      <h5 className="text-5xl text-center text-[#5e2807ce]">Product</h5>
     </div>
     <div className="flex justify-center w-full">
-     <div className="grid grid-cols-3 gap-12 px-8 py-6 w-auto">
+     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 px-8 py-6 w-auto">
       {productItem.map((item, index) => (
        <Card
         key={index}
